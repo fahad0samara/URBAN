@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-arabic: 'Cairo', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-display: 'Plus Jakarta Sans', 'Cairo', sans-serif;
+  }
+
+  html {
+    font-family: var(--font-arabic);
+    scroll-behavior: smooth;
+    background-color: #FFFFFF;
+    color: #18181B;
+  }
+
+  body {
+    font-family: var(--font-arabic);
+    overflow-x: hidden;
+  }
+}
+
+.font-latin {
+  font-family: var(--font-display);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

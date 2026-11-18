@@ -1,0 +1,6 @@
+{
+  "name": "Urban Nova — أوربان نوفا | حي المستقبل السكني",
+  "description": "مجمع سكني عصري ببنية تحتية ذكية، ساحات آمنة خالية من السيارات، وردهات بتصاميم فاخرة.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
